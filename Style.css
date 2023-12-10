@@ -1,0 +1,84 @@
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero{
+    color: white !important;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.langbtn{
+ text-decoration: none !important;
+ color: white;
+ border: 1px white solid;
+ border-radius: 7px;  
+   padding: 10px;
+   transition: all 2s !important;
+}
+.langbtn:hover{
+    transform: scale(1.2) !important;
+    color: white;
+}
+nav .nav-link{
+    color: white !important;
+    transition: all 2s;  
+}
+nav .nav-link:hover{
+     transform: scale(1.2);
+}
+.text h1{
+    font-size: 49px;
+    font-weight: bold;
+   
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 5px;
+    background: #ff960b;
+    text-align: center;
+    
+}
+.text a,h1,span{
+    transition: all 2s;
+}
+
+.text h1:hover,span:hover,a:hover{
+    transform: scale(1.1);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subsection2{
+    width: 50%;
+
+    color: white !important ;
+    align-items: end;
+}
+.subsection2 .menu{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 0 10px;
+    align-items: center;
+    color: #ff960b;
+}
+.menu h3{
+    color: white;
+    font-weight: bold;
+}
+.subsection2 .menu img{
+    height: 50px;
+
+
+}
